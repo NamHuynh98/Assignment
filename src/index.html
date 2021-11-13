@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Assignment 3</title>
+</head>
+
+<body>
+  <div class="d-flex flex-column">
+    <div id="wrapper-img" class="d-flex justify-content-center">
+      <img id="image-detail" alt="image-detail">
+      <div id="zoom-screen" class="hide">
+        <img id="img-zoom" src="./assets/img/lf_groove_2010_1.jpg" alt="img-zoom-in">
+        <span id="status-page"></span>
+        <div class="buttons-pagination">
+          <button id="btn-prev">
+            <img src="./assets/icon/ic_right_arrow.svg" alt="ic-right">
+          </button>
+          <button id="btn-next">
+            <img src="./assets/icon/ic_right_arrow.svg" alt="ic-right">
+          </button>
+        </div>
+        <div class="buttons-control">
+          <button id="btn-zoom">
+            <img src="./assets/icon/ic_zoom.svg" alt="ic-zoom">
+          </button>
+          <button id="btn-close">
+            <img src="./assets/icon/ic_close.svg" alt="ic-close">
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="list-img-small"></div>
+  </div>
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
