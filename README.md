@@ -1,6 +1,7 @@
 # Interview Assignment 3
-### Estimate time: 8 hour
+### Estimate time: 8 hours
 ### Expected deadline: 8pm - 11/3
+### Completion time 4 hours
 
 #### Framework and Libraries:
 1. Bootstrap 5 + Vanilla Js (No Jquery). Any prefered lightweight vanila js library
@@ -20,9 +21,3 @@
   ...
   }
   When change $primary color => red - components' color also change to Red
-
-#### Steps:
-1. Report Estimate Time and Deadline for finishing component - before starting to work
-2. Set up project on Github - Final delivery will be a Github project, Provide a README.MD how to test.
-3. Keep Track - Report Actual Time working on the project
-4. Send Final delivery is a link to Github Project
